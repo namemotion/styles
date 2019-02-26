@@ -1,0 +1,17 @@
+{
+  "name": "Style",
+  "version": "0.0.1",
+  "description": "Namemotion CSS Styles based on Bulma",
+  "main": "sass/namemotion.scss",
+  "author": "Antonio Villamarin",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "build": "node-sass  --omit-source-map-url sass/namemotion.scss css/namemotion.css",
+    "watch": "npm run build -- --watch",
+    "start": "npm run watch"
+  }
+}
