@@ -7,27 +7,50 @@
 // Corporate
 $primary-color: #11BBDD;
 $secondary-color: #3273DC;
+$third-color: #23D160;
 $background-color: #F5F5F5;
 $text-color: #666666;
+$text-color-sub: #AAAAAA;
+
+$purple-rebecca: #663399;
+$mustard: #FFCC13;
+
 $size-1: 3.5em;
-$size-2: 2.5em;
-$size-3: 1.5em;
-$size-4: 1.25em;
-$size-5: 1.125em;
-$size-6: 1em;
-$size-7: .75em;
+
 $family-primary: "Raleway", sans-serif;
 $family-secondary: "Syncopate", serif;
 $family-monospace: "Fira Mono", monospace;
 
-$body-background-color: $background-color;
-$body-size: $size-3;
+// Rewritten variables
+
 $body-family: $family-primary;
 $body-color: $text-color;
 $code-family: $family-monospace;
-$code-size: $size-4;
+
 $primary: $primary-color;
+$info: purple-rebecca;
+$success: $third-color;
+$warning: $mustard;
+
+$background: $background-color;
+
+$text: $text-color
+$text-light: $text-color-sub;
 $link: $primary-color;
+
+$gap: 4em;
+$tablet: 48em;
+$desktop: 60em + (2 * $gap);
+$widescreen: 72em + (2 * $gap);
+$fullhd: 84em + (2 * $gap);
+
+$size-small: $size-6;
+$size-normal: $size-4;
+$size-medium: $size-3;
+$size-large: $size-2;
+
+$body-size: 16px;
+$code-size: $size-6;
 
 // Import only what you need from Bulma
 @import "./node_modules/bulma/sass/utilities/_all.sass";
